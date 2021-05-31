@@ -1,0 +1,29 @@
+{
+  "url": "http://18.116.241.25",
+  "server": {
+    "port": 2368,
+    "host": "127.0.0.1"
+  },
+  "database": {
+    "client": "mysql",
+    "connection": {
+      "host": "ghostdb.cd7sk3ukpgns.us-east-2.rds.amazonaws.com",
+      "user": "ghostuser",
+      "password": "ghostpwd",
+      "database": "tkstage"
+    }
+  },
+  "mail": {
+    "transport": "Direct"
+  },
+  "logging": {
+    "transports": [
+      "file",
+      "stdout"
+    ]
+  },
+  "process": "systemd",
+  "paths": {
+    "contentPath": "/var/www/teakadai/content"
+  }
+}
